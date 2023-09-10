@@ -16,8 +16,9 @@ def get_info():
     utc_time = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
 
     # Construct GitHub URLs
-    github_repo_url = "https://github.com/username/repo"
-    github_file_url = f"{github_repo_url}/blob/main/file_name.ext"
+    github_repo_url = "https://github.com/enayds/Backend_Internship"
+    github_file_url = "https://github.com/enayds/Backend_Internship/blob/master/app.py"
+
 
     # Create the response JSON
     response = {
@@ -34,3 +35,6 @@ def get_info():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+
+    
